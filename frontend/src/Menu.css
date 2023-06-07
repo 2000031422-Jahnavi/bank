@@ -1,0 +1,26 @@
+.dashCont {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .dashCont > div {
+  background-color: azure;
+  height: 100px;
+  
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  border: 1px solid rgb(78, 145, 203);
+  font-size: 2em;
+  }
+  .dashCont > div:hover {
+    background-color: gold;
+    color: black;
+  }

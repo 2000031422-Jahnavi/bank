@@ -65,7 +65,7 @@ handleSubmit(e){
           />
         </div>
 
-        {/* <div className="mb-3">
+        <div className="mb-3">
           <div className="custom-control custom-checkbox">
             <input
               type="checkbox"
@@ -76,7 +76,7 @@ handleSubmit(e){
               Remember me
             </label>
           </div>
-        </div> */}
+        </div>
 
         <div className="d-grid">
           <button type="submit" className="btn btn-primary">
